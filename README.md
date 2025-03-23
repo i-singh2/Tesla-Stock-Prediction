@@ -6,11 +6,11 @@
 - Rohan Radadiya, 100704614
 
 ## Summary
-This repository contains code for predicting Tesla stock prices using machine learning and a Linear Regression Model. The project includes a Jupyter notebook to show and explain how the model was made and evaluated, and a Python script for generating Today's price, as well as a recommended action by comparing the prediction to the last trading day's data
+This repository contains code for predicting Tesla stock prices using machine learning with a Linear Regression Model. The main component is a Python script (prediction.py) that generates today's predicted stock price and provides a recommended trading action (buy/sell/hold) by comparing the prediction to the previous trading day's closing price. We've also included a Jupyter notebook that thoroughly documents how we built and evaluated the model - this is provided for transparency and educational purposes only and doesn't need to be run. For practical use, simply run prediction.py to get the latest Tesla stock prediction and trading recommendation.
 
 ## Files
 
-- `prediction.py`: **MAIN FILE** - A Python script that gathers and preprocesses data, trains and tests the model, calculates error and generates the prediction for the day's stock price, as well as provides advice on whether you should buy, hold, or sell.
+- `prediction.py`: **MAIN FILE** - A Python script that gathers and preprocesses data, trains and tests the model, calculates error, and generates the prediction for the day's stock price, as well as provides advice on whether you should buy, hold, or sell.
 - `tesla_stock_model.ipynb`: A Jupyter notebook for exploratory data analysis and model development.
 - `tesla_stock_data.csv`: Contains the dataset used for training and testing the model, up to the date of submission
 
