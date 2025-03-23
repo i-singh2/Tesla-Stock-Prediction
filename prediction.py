@@ -20,9 +20,9 @@ warnings.filterwarnings(
 # Fetch Tesla stock data from Yahoo Finance
 def fetch_tesla_data(start_date: str, end_date: str):
 
-    print(f"\nFetching Tesla stock data from {start_date} to {end_date}...")
+    print(f"\nFetching Data...")
 
-    # Download stock data
+    # Download stock data from start date to yesterday
     tesla_data = yf.download("TSLA", start=start_date, end=end_date, interval="1d")
 
     # Reset index to make 'Date' a column
