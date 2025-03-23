@@ -69,3 +69,5 @@ pip install yfinance pandas ta matplotlib scikit-learn
 5. When the script is running, enter today's date in the following format: YYYY-MM-DD. For example, 2025-03-23
 
 6. Once the date is entered, the predictions are complete and the model will provide you with a predicted price and a recommended action
+
+![image](https://github.com/user-attachments/assets/5f8ac596-8c1a-422c-ac6f-177bd907562f)
